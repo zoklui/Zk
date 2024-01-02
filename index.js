@@ -41,10 +41,10 @@ app.get('/', (req, res) => {
       <meta charset="UTF-8" />
       <title>Zokou Parring Code</title>
   </head>
-  <body style="text-align: center;">
+  <body style="text-align: center;padding:auto;">
 
        <div>
-       Veillez inserer votre numer de telephone dans le format internationnal sans (+)
+       <span><h1> ZOKOU MD </h1><br/></span>
       </div>
 
        <div style="padding: 20px;">
